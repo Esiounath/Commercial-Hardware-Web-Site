@@ -1,0 +1,201 @@
+<html>
+    <head><meta charset="utf-8"> <link lang="fr"> <link rel="stylesheet" href="hardware.css"> <title>Lien Favoris</title></head>
+    <html>
+<head>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </head>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../home_page/home_page.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="../../Back-end/home_page_registre/connexion/connexion.php">Connexion</a></li>
+                  <li><a class="dropdown-item" href="../../Back-end/home_page_registre/registration/registration.php">Registration</a></li>
+                </ul>
+              </li>
+              <form class="d-flex" method="post" action="recherche.php">
+              <input class="form-control me-2" type="search" placeholder="Search any Hardware" aria-label="Search" name="recherche" >
+              <input class="btn btn-outline-success" name="envoi" type="submit" value="Search">
+            </form>
+            </ul>
+          </div>
+        </div>
+      </nav>
+</header>
+</html>
+    <body>
+    
+            <section>
+              
+            <button  class="keyboard" target="_blank" onclick="window.location.href='keyboard/keyboard.html'"></button>
+            
+            
+            <button class="mozilla" onclick="window.location.href='hard_disk/hard_disk.html'"></button>
+            
+            
+            <button class="udemy"onclick="window.location.href='screen/screen.html'"></button>
+            
+            
+            <button class="printe"onclick="window.location.href='pc_tower/pc_tower.html'"></button>
+            
+            
+    
+            
+            
+            <button class="discount"onclick="window.location.href='mouse/mouse.html'"></button>
+            
+            
+
+        
+        </section>
+        <script type="text/javascript">
+        let button1 = document.getElementsByTagName('button')[1];
+        let button2 = document.getElementsByTagName('button')[2];
+        let button3 = document.getElementsByTagName('button')[3];
+        let button4 = document.getElementsByTagName('button')[4];
+        let button5 = document.getElementsByTagName('button')[5];
+  
+        console.log(button1);
+
+        button1.addEventListener('mouseover',() => {
+          button1.style.opacity = '-1';  
+       button1.style.transition = '1s';
+       button1.style.borderColor = 'black';
+       button2.style.opacity = '0';  
+       button3.style.opacity = '0';  
+       button4.style.opacity = '0'; 
+       button5.style.opacity = '0';   
+       document.body.style.backgroundImage= "url('./keyboard/keyboard.jpg')";
+        });
+        button1.addEventListener('mouseout',() => {
+          button1.style.opacity = '0';  
+          setTimeout(button2.style.opacity = '0.3',5000);  
+          button1.style.transition = '1s';
+          button1.style.borderColor = 'inherit';
+          setTimeout(button3.style.opacity = '0.3',5000);  
+          setTimeout(button4.style.opacity = '0.3',5000); 
+          setTimeout(button5.style.opacity = '0.3',5000);   
+       button1.style.backgroundImage = "none";
+       document.body.style.backgroundImage= "none";
+        });
+        button2.addEventListener('mouseover',() => {
+          button2.style.opacity = '-1';  
+       button2.style.transition = '1s';
+       button1.style.opacity = '0';  
+       button3.style.opacity = '0';  
+       button4.style.opacity = '0'; 
+       button5.style.opacity = '0';   
+       document.body.style.backgroundImage= "url('./hard_disk/hard_drive.jpg')";
+        });
+        button2.addEventListener('mouseout',() => {
+          button2.style.transition = '1s';
+          button2.style.opacity = '0';  
+         setTimeout( button1.style.opacity = '0.3',5000);  
+      setTimeout( button3.style.opacity = '0.3',5000);  
+      setTimeout( button4.style.opacity = '0.3',5000); 
+      setTimeout( button5.style.opacity = '0.3',5000);   
+       button2.style.backgroundImage = "none";
+       document.body.style.backgroundImage= "none";
+        });
+        button3.addEventListener('mouseover',() => {
+          button3.style.opacity = '-1';  
+       button3.style.transition = '1s';
+       button1.style.opacity = '0';  
+       button2.style.opacity = '0';  
+       button4.style.opacity = '0'; 
+       button5.style.opacity = '0';   
+       document.body.style.backgroundImage= "url('./screen/screen.jpg')";
+        });
+        button3.addEventListener('mouseout',() => {
+          button3.style.transition = '1s';
+          button3.style.opacity = '0';  
+         setTimeout( button1.style.opacity = '0.3',5000);  
+      setTimeout( button2.style.opacity = '0.3',5000);  
+      setTimeout( button4.style.opacity = '0.3',5000); 
+      setTimeout( button5.style.opacity = '0.3',5000);   
+       button3.style.backgroundImage = "none";
+       document.body.style.backgroundImage= "none";
+        });
+        button5.addEventListener('mouseover',() => {
+          button5.style.opacity = '-1';  
+       button5.style.transition = '1s';
+       button1.style.opacity = '0';  
+       button2.style.opacity = '0';  
+       button3.style.opacity = '0'; 
+       button4.style.opacity = '0';   
+       document.body.style.backgroundImage= "url('./mouse/mouse_black.jpg')";
+        });
+        button5.addEventListener('mouseout',() => {
+          button5.style.transition = '1s';
+          button5.style.opacity = '0';  
+         setTimeout( button1.style.opacity = '0.3',5000);  
+      setTimeout( button2.style.opacity = '0.3',5000);  
+      setTimeout( button3.style.opacity = '0.3',5000); 
+      setTimeout( button4.style.opacity = '0.3',5000);   
+       button5.style.backgroundImage = "none";
+       document.body.style.backgroundImage= "none";
+        });
+        button4.addEventListener('mouseover',() => {
+          button4.style.opacity = '-1';  
+       button4.style.transition = '1s';
+       button1.style.opacity = '0';  
+       button2.style.opacity = '0';  
+       button3.style.opacity = '0'; 
+       button5.style.opacity = '0';   
+       document.body.style.backgroundImage= "url('./pc_tower/pc_case.jpg')";
+        });
+        button4.addEventListener('mouseout',() => {
+          button4.style.transition = '1s';
+          button4.style.opacity = '0';  
+         setTimeout( button1.style.opacity = '0.3',5000);  
+      setTimeout( button2.style.opacity = '0.3',5000);  
+      setTimeout( button3.style.opacity = '0.3',5000); 
+      setTimeout( button5.style.opacity = '0.3',5000);   
+       button4.style.backgroundImage = "none";
+       document.body.style.backgroundImage= "none";
+        });
+        </script>
+        
+    
+    
+    </body>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

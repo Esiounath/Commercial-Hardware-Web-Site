@@ -1,0 +1,149 @@
+section{
+    border-style: outset; /* Langage CSS */ /* Langage CSS */
+    border-width: 0.4em; /* Langage CSS */
+    margin-right: 70%; /* Langage CSS */ /* Langage CSS */
+    padding-bottom: 5%; /* Langage CSS *//* Langage CSS */
+    box-shadow: 0.625em 0.625em rgba(0,0,0,.25); /* Langage CSS */
+    opacity: 0;
+} /* Langage CSS */
+section:hover
+{
+    border-style: outset; /* Langage CSS *//* Langage CSS */
+    opacity: 0;
+    border-width: 0.4em; /* Langage CSS */
+    margin-right: 70%; /* Langage CSS */ /* Langage CSS */
+    padding-bottom: 5%; /* Langage CSS */ /* Langage CSS */
+    box-shadow: 0.100em 0.100em rgba(0,0,0,.25); /* Langage CSS */
+    transition: all .8s ease;
+}
+.dia
+{
+    font-size: 2em;
+        text-align: center;
+      line-height: 5vh;
+        color: #fcedd8;
+        font-family: 'Niconne', cursive;
+        font-weight: 10;
+      text-shadow: 1px 1px 0px #eb452b, 
+                  3px 3px 0px #efa032, 
+                  5px 5px 0px #46b59b, 
+                  6px 6px 0px #017e7f, 
+                  6px 6px 0px #052939, 
+                  7px 7px 0px #c11a2b, 
+                  7px 7px 10px #c11a2b;
+}
+header{ /* Langage CSS */
+    background-image: url(fond_html.png) /* Langage CSS */
+}
+body{ /* Langage CSS */
+    background-image: url(fond_html.png) /* Langage CSS */
+}/* Langage CSS */ /* Langage CSS */
+img{ /* Langage CSS */
+    height: 35%; /* Langage CSS */
+    width: 35%; /* Langage CSS */
+    margin-bottom: 20%; /* Langage CSS */
+    border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% ; /* Langage CSS */
+    box-shadow: 0.625em 0.625em rgba(0,0,0,.25); /* Langage CSS */
+}/* Langage CSS */ /* Langage CSS *//* Langage CSS *//* Langage CSS */
+ img:hover
+{
+     height: 35%; /* Langage CSS */
+    width: 35%; /* Langage CSS */
+    margin-bottom: 20%; /* Langage CSS */
+    border-radius: 0% 0% 30% 30% / 0% 0% 5% 5% ; /* Langage CSS */
+    box-shadow: 0.100em 0.100em rgba(0,0,0,.25);
+    transition: all .8s ease;
+}
+h3{ /* Langage CSS */ /* Langage CSS *//* Langage CSS */ /* Langage CSS */
+    /* Langage CSS */ /* Langage CSS */ /* Langage CSS */ /* Langage CSS */
+    text-align: center; /* Langage CSS */
+    margin-top: 10%; /* Langage CSS */
+    border-style: inset; /* Langage CSS */
+    border-radius: 10%; /* Langage CSS */
+    margin-right: 35%; /* Langage CSS */
+    margin-left: 35%; /* Langage CSS */
+    padding-top: 0.5; /* Langage CSS */
+    padding-bottom: 0.5%; /* Langage CSS */
+    border-color:#F2F3F4; /* Langage CSS */
+    background-color: #F2F3F4; /* Langage CSS */
+    text-shadow:0 0 0.125em #D5DBDB,0.125em 0.188em 0.188em #616A6B , 0 0 0.625em #616A6B;color:#D5DBDB; /* Langage CSS */
+    font-style: italic; /* Langage CSS */
+    text-decoration-color : #D5DBDB ; /* Langage CSS */
+    border-radius: 20% 20% 20% 20% / 20% 20% 20% 20% ; /* Langage CSS */
+    box-shadow: 0.625em 0.625em rgba(0,0,0,.25); /* Langage CSS */
+} /* Langage CSS */ /* Langage CSS */ /* Langage CSS */ /* Langage CSS */ /* Langage CSS */ 
+a{ /* Langage CSS */ /* Langage CSS */ /* Langage CSS */ /* Langage CSS */ /* Langage CSS */
+    text-decoration-color : #D5DBDB ; /* Langage CSS */ /* Langage CSS *//* Langage CSS */
+}/* Langage CSS */ /* Langage CSS */ /* Langage CSS */ /* Langage CSS */ /* Langage CSS */
+/* Langage CSS */ /* Langage CSS */ /* Langage CSS */ /* Langage CSS */ /* Langage CSS */
+h2{ /* Langage CSS */ /* Langage CSS */ /* Langage CSS */ /* Langage CSS */ /* Langage CSS */
+    
+    text-align: center;
+    
+}
+p{
+   text-shadow:#D0D3D4  0.156em 0.156em 0,
+#D0D3D4 0.313em 0.313em 0,
+#B3B6B7 0.469em 0.469em  0,
+#979A9A 0.625em 0.625em 0.625em;color:#717D7E ;
+1.875em 1.875em 0 #5F6A6A;
+    font-size: 1.4em;
+   
+    
+}
+footer{
+    border-style: outset;
+    text-align: center;
+    opacity: 0;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50% ;
+    box-shadow: 0.625em 0.625em rgba(0,0,0,.25);
+    background-image: url(fond_html.png);
+}
+input {
+  position: relative;
+  width: 18%;
+  height: 18%;
+  border-radius: 20% 20% 20% 20% / 20% 20% 20% 20% ;
+  box-shadow: 1.25em 1.25em  rgba(0,0,0,.15);
+  transition: all .7s ease;
+  
+}
+
+input:hover {
+  border-radius: 50% 50% 50% 50% / 50% 50% 50% 50% ;
+  box-shadow: 0.625em 0.625em rgba(0,0,0,.25);
+  border-style: outset;
+}
+input[class="ecole"]{
+    background-image: url(etudiant.PNG)
+    
+}
+input[class="diplome"]{
+    background-image: url(experience.PNG)
+    
+}
+input[class="lien"]{
+    background-image: url(lien.PNG)
+    
+}
+input[class="loisirs"]{
+    background-image: url(loisirs.PNG)
+    
+}
+input[class="dia"]{
+    background-image: url(diaporama.PNG)
+    
+}
+
+
+
+
+ 
+
+    
+
+
+
+

@@ -1,0 +1,98 @@
+
+.inscription{
+  opacity: 0;
+    border-style: outset; /* Langage CSS */
+    border-width: 0.4em; /* Langage CSS */
+    height: auto;
+    width: 35%;
+    opacity: 0;
+    position: absolute;
+    left: 30%; 
+    bottom: 50%;
+    box-shadow: 0.4em 0.4em 0.4em 0.4em rgba(0,0,0,.25);
+    background: #d52e3f;
+    border-color: #d52e3f;
+     
+}
+p{
+          font-size: 2em;
+        text-align: center;
+      line-height: 30vh;
+        color: #fcedd8;
+        font-family: 'Niconne', cursive;
+        font-weight: 200;
+      text-shadow: 1px 1px 0px #eb452b, 
+                  5px 5px 0px #efa032, 
+                  7px 7px 0px #46b59b, 
+                  10px 10px 0px #017e7f, 
+                  12px 12px 0px #052939, 
+                  15px 15px 0px #c11a2b, 
+                  18px 18px 0px #c11a2b;
+}
+.inscription:hover
+{
+    border-style: outset; /* Langage CSS */
+    border-width: 0.4em; /* Langage CSS */
+    height: auto;
+    width: 35%;
+    text-align: center;
+    position: absolute;
+    left: 30%; bottom: 50%;
+    box-shadow: 0.4em 0.4em 0.4em 0.4em rgba(0,0,0,.25);
+-moz-transform: translate(320px, 0px);
+-webkit-transform: translate(320px, 0px);
+-o-transform: translate(320px, 0px);
+-ms-transform: translate(320px, 0px);
+transform: translate(320px, 0px);
+transition: all .8s ease;
+background: #2E86C1  ;
+    border-color: #2E86C1 ;
+}
+.connexion
+{
+  opacity: 0;
+    border-style: outset; /* Langage CSS */
+    border-width: 0.4em; /* Langage CSS */
+    height: 45%;
+    width: 35%;
+    text-align: center;
+    position: absolute;
+    left: 30%; bottom: 5%;
+      z-index: 2;
+    box-shadow: 0.4em 0.4em 0.4em 0.4em rgba(0,0,0,.25);
+    background: #d52e3f;
+    border-color: #d52e3f;
+}
+.connexion:hover
+{
+     border-style: outset; /* Langage CSS */
+    border-width: 0.4em; /* Langage CSS */
+    height: 45%;
+    width: 35%;
+    text-align: center;
+    position: absolute;
+    left: 30%; bottom: 5%;
+      z-index: 2;
+    box-shadow: 0.4em 0.4em 0.4em 0.4em rgba(0,0,0,.25);
+    background: #FAD9A0;
+-moz-transform: translate(-320px, 0px);
+-webkit-transform: translate(-320px, 0px);
+-o-transform: translate(-320px, 0px);
+-ms-transform: translate(-320px, 0px);
+transform: translate(-320px, 0px);
+transition: all .8s ease;
+border-color: white ;
+background: #8E44AD ;
+    border-color: #8E44AD ;
+}
+body
+{
+    background-color: #d52e3f;
+}
+
+
+
+
+
+
+

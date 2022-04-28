@@ -1,0 +1,99 @@
+.retour
+{
+ background-color: #d52e3f ;
+ margin-left: 42%;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    
+}
+.retour:hover
+{
+   color: #FFFFFF;
+   margin-left: 42%;
+background-color: #AF7AC5  ;
+text-shadow: 0 0 10px #FFFFFF;    color: #53af57;
+    border: 1px solid #AF7AC5 ;
+    -webkit-border-radius: 40px 40px 40px 40px;
+-moz-border-radius: 40px 40px 40px 40px;
+border-radius: 40px 40px 40px 40px;
+-moz-transform: scale(1.2);
+-webkit-transform: scale(1.2);
+-o-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2);
+}
+a
+{
+  text-align: center;
+  text-decoration: none ;
+      line-height: 1vh;
+        color: #fcedd8;
+        font-family: 'Niconne', cursive;
+        font-weight: 10;
+      text-shadow: 1px 1px 0px #eb452b, 
+                  1px 1px 0px #efa032, 
+                  2px 2px 0px #46b59b, 
+                  3px 3px 0px #017e7f, 
+                  4px 4px 0px #052939, 
+                  4px 4px 0px #c11a2b, 
+                  5px 5px 0px #c11a2b;
+                  font-size: 1.5em ;
+}
+a:hover
+{
+ text-align: center;
+ text-decoration: none ;
+      line-height: 1vh;
+        color: #fcedd8;
+        font-family: 'Niconne', cursive;
+        font-weight: 10;
+      text-shadow: 1px 1px 0px #eb452b, 
+                  1px 1px 0px #efa032, 
+                  2px 2px 0px #46b59b, 
+                  3px 3px 0px #017e7f, 
+                  4px 4px 0px #052939, 
+                  4px 4px 0px #c11a2b, 
+                  5px 5px 0px #c11a2b;
+                  font-size: 1.5em ;
+}
+
+h2
+{
+      line-height: 1vh;
+      text-align: center;
+      font-size: 2em;
+        color: #fcedd8;
+        font-family: 'Niconne', cursive;
+        font-weight: 10;
+        transition: all 7s.ease ;
+      text-shadow: 1px 1px 0px #eb452b, 
+                  1px 1px 0px #efa032, 
+                  2px 2px 0px #46b59b, 
+                  3px 3px 0px #017e7f, 
+                  4px 4px 0px #052939, 
+                  4px 4px 0px #c11a2b, 
+                  5px 5px 0px #c11a2b;
+}
+h1
+{
+      line-height: 1vh;
+        color: #fcedd8;
+         text-align: center;
+         font-size: 5em;
+        font-family: 'Niconne', cursive;
+        font-weight: 15;
+        transition: all 7s.ease ;
+      text-shadow: 1px 1px 0px #eb452b, 
+                  1px 1px 0px #efa032, 
+                  2px 2px 0px #46b59b, 
+                  3px 3px 0px #017e7f, 
+                  4px 4px 0px #052939, 
+                  4px 4px 0px #c11a2b, 
+                  5px 5px 0px #c11a2b;
+}
+body{
+    background-color: #d52e3f;
+}

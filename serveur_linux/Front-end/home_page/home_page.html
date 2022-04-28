@@ -1,0 +1,89 @@
+<DOCTYPE HTML> <!-- Langage HTML -->
+ <html lang="fr"> <!-- Langage HTML -->
+    <head><meta charset ="utf-8"> <!-- Langage HTML -->
+     <link lang="fr"><title>Site Internet Eden</title> <link href="home_page.css" rel="stylesheet"> </head> <!-- Langage HTML -->
+     <header> <!-- Langage HTML -->
+         <section> <!-- Langage HTML -->
+            <p class="dia">Welcome to website of Hardware sell we sell lot of computer and keyboard and usb devices into computers <br> </p>            <!-- Langage HTML -->
+         </section>                             <!-- Langage HTML -->
+     </header>
+     <body> 
+          
+     </body> 
+    
+    <footer> <!-- Langage HTML -->
+     <div> <!-- Langage HTML -->
+     
+    <!--<input onclick="window.location='../Etudes/etude.html'" type="button"  value="Etudes"  class="ecole" > --><!-- Langage HTML -->
+     
+    <!--<input onclick="window.location='../experience/experience.html'" type="button" value="Experiences" class="diplome" > --><!-- Langage HTML -->
+     
+    <input type="button" value="Customer Services" onclick="window.location='../favoris/lien_favoris.html'" class="lien"> <!-- Langage HTML -->
+     
+    <input type="submit" value="Hardware" onclick="window.location='../hardware/hardware.html'" class="dia"> <!-- Langage HTML -->
+     
+    <input type="submit" value="Registrer" class="dia" onclick="window.location='../home_page_registre/page_registrer.html'" > <!-- Langage HTML -->
+    <script type="text/Javascript">
+       let registrer = document.getElementsByTagName('input')[2];
+       let hardware = document.getElementsByTagName('input')[1];
+       let section = document.getElementsByTagName('section')[0];
+       let footer = document.getElementsByTagName('footer')[0];
+      registrer.addEventListener('mouseover',() => {
+        document.querySelector('footer').style.backgroundImage = "url('registrer.png')";
+        registrer.style.backgroundColor = 'red';
+        registrer.style.opacity = '1';
+      });
+      
+      registrer.addEventListener('mouseout',() => {
+         document.querySelector('footer').style.backgroundImage = "none";
+        registrer.style.backgroundColor = 'white';
+        registrer.style.opacity = '0';
+        registrer.style.transition = '1s';
+      });
+      hardware.addEventListener('mouseover',() => {
+         document.querySelector('footer').style.backgroundImage = "url('hardware.png')";
+        hardware.style.backgroundColor = '#F8C471';
+        hardware.style.opacity = '1';
+      });
+   
+      
+      hardware.addEventListener('mouseout',() => {
+         document.querySelector('footer').style.backgroundImage = "none";
+        hardware.style.backgroundColor = 'white';
+        hardware.style.opacity = '0';
+        hardware.style.transition = '1s';
+      });
+      section.addEventListener('mouseover',() => {
+        section.style.backgroundColor = 'inherit';
+        section.style.opacity = '3';
+        section.style.borderColor = 'inherit';
+        
+      });
+   
+      
+      section.addEventListener('mouseout',() => {
+        section.style.backgroundColor = 'inherit';
+        section.style.opacity = '0';
+        section.style.borderColor = 'inherit';
+        section.style.transition = '2s all';
+      });
+      footer.addEventListener('mouseover',() => {
+        footer.style.backgroundColor = 'inherit';
+        footer.style.opacity = '1';
+        footer.style.borderColor = 'inherit';
+        
+      });
+   
+      
+      footer.addEventListener('mouseout',() => {
+        footer.style.backgroundColor = 'inherit';
+        footer.style.opacity = '0';
+        footer.style.borderColor = 'inherit';
+        footer.style.transition = '2s all';
+      });
+
+   </script>
+        </div> <!-- Langage HTML -->
+     </footer> <!-- Langage HTML -->
+</html><!-- Langage HTML -->
+</DOCTYPE>

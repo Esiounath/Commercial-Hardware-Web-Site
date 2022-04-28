@@ -1,0 +1,172 @@
+fieldset{ /* Langage CSS */
+    height: auto ; /* Langage CSS */
+    width: 60% ; /* Langage CSS */
+    margin-bottom: 20%; /* Langage CSS */
+    box-shadow: 0.625em 0.625em rgba(0,0,0,.25); /* Langage CSS */
+    border-width: 0,1em;
+    border-style: solid; 
+    border-color: #edde9c ;
+    background: #edde9c  ;
+    margin-left: 20%;
+}/* Langage CSS */ /* Langage CSS *//* Langage CSS *//* Langage CSS */
+fieldset:hover
+{
+     height: auto ; /* Langage CSS */
+    width: 60% ;  /* Langage CSS */
+    margin-bottom: 20%; /* Langage CSS */
+    box-shadow: 0.100em 0.100em rgba(0,0,0,.25);
+    transition: all .8s ease;  
+    border-color: #edde9c ;
+    background: #edde9c;
+   border-style: solid ;
+   -webkit-box-shadow: 5px 5px 15px 5px #F1FF3B, -42px -48px 45px -18px rgba(201,206,85,0.16), 5px 39px 45px -18px rgba(148,206,52,0.51), -40px 39px 45px -18px rgba(206,201,9,0.51), -40px -33px 45px -18px rgba(145,239,41,0.51), 42px -33px 45px -18px rgba(239,228,125,0.51), 42px -33px 45px -18px rgba(239,228,125,0.51); 
+box-shadow: 5px 5px 15px 5px #F1FF3B, -42px -48px 45px -18px rgba(201,206,85,0.16), 5px 39px 45px -18px rgba(148,206,52,0.51), -40px 39px 45px -18px rgba(206,201,9,0.51), -40px -33px 45px -18px rgba(145,239,41,0.51), 42px -33px 45px -18px rgba(239,228,125,0.51), 42px -33px 45px -18px rgba(239,228,125,0.51);
+}
+input[placeholder]
+{
+    color: #52BE80 ;
+}
+legend 
+{
+    text-align: center;
+    color: yellow ;
+}
+input
+{
+    border-top: none ;
+    border-right: none ;
+    border-left: none ;
+    border-bottom-width: 0.3em;
+    -webkit-border-radius: 40px 40px 0px 40px;
+-moz-border-radius: 40px 40px 0px 40px;
+border-radius: 40px 40px 0px 40px;
+background: #edde9c ;
+    border-bottom-color: yellow ;
+    width: 20em;
+    height: 2em ;
+}
+table
+{
+    text-align: center;
+    margin-left: 30%;
+}
+body 
+{
+    background-color: #EC7063   ;
+}
+input:hover
+{
+    -moz-transform: scale(1.5) rotate(360deg);
+-webkit-transform: scale(1.5) rotate(360deg);
+-o-transform: scale(1.5) rotate(360deg);
+-ms-transform: scale(1.5) rotate(360deg);
+transform: scale(1.5) rotate(360deg);
+-webkit-border-radius: 40px 40px 40px 40px;
+-moz-border-radius: 40px 40px 40px 40px;
+border-radius: 40px 40px 40px 40px;
+transition: all 7s.ease ;
+background: #edde9c ;
+border-style: solid ;
+border-width: 0.1em;
+border-color: yellow ;
+}
+h2
+{
+ color: #bc2e1e;
+background: #edde9c;
+text-shadow: 0 1px 0px #378ab4, 1px 0 0px #5dabcd, 1px 2px 1px #378ab4, 2px 1px 1px #5dabcd, 2px 3px 2px #378ab4, 3px 2px 2px #5dabcd, 3px 4px 2px #378ab4, 4px 3px 3px #5dabcd, 4px 5px 3px #378ab4, 5px 4px 2px #5dabcd, 5px 6px 2px #378ab4, 6px 5px 2px #5dabcd, 6px 7px 1px #378ab4, 7px 6px 1px #5dabcd, 7px 8px 0px #378ab4, 8px 7px 0px #5dabcd;
+}
+select
+{
+    border-top: none ;
+    border-right: none ;
+    border-left: none ;
+    border-bottom-width: 0.3em;
+    -webkit-border-radius: 40px 40px 0px 40px;
+-moz-border-radius: 40px 40px 0px 40px;
+border-radius: 40px 40px 0px 40px;
+background: #edde9c ;
+    border-bottom-color: yellow ;
+    width: 20em;
+    height: 2em ;
+}
+select:hover
+{
+    -moz-transform: scale(1.5) rotate(360deg);
+-webkit-transform: scale(1.5) rotate(360deg);
+-o-transform: scale(1.5) rotate(360deg);
+-ms-transform: scale(1.5) rotate(360deg);
+transform: scale(1.5) rotate(360deg);
+-webkit-border-radius: 40px 40px 40px 40px;
+-moz-border-radius: 40px 40px 40px 40px;
+border-radius: 40px 40px 40px 40px;
+transition: all 7s.ease ;
+background: #edde9c ;
+border-style: solid ;
+border-width: 0.1em;
+border-color: yellow ;
+}
+.f2
+{
+     height: auto ; /* Langage CSS */
+    width: 60% ; /* Langage CSS */
+    margin-bottom: 20%; /* Langage CSS */
+    box-shadow: 0.625em 0.625em rgba(0,0,0,.25); /* Langage CSS */
+    border-width: 0,1em;
+    border-style: solid; 
+    border-color: #F7C1C1 ;
+    background: #F7C1C1  ;
+    margin-left: 20%;
+
+}
+.f2:hover
+{
+     height: auto ; /* Langage CSS */
+    width: 60% ; /* Langage CSS */
+    margin-bottom: 20%; /* Langage CSS */
+    box-shadow: 0.625em 0.625em rgba(0,0,0,.25); /* Langage CSS */
+    border-width: 0,1em;
+    border-style: none; 
+    border-color: #F7C1C1 ;
+    background: #F7C1C1  ;
+    margin-left: 20%;
+    -webkit-box-shadow: -4px 2px 18px 5px rgba(201,0,214,0.51), -4px -7px 36px 0px rgba(214,52,180,0.35), inset -4px -7px 36px 0px rgba(214,52,180,0.35), inset -4px -7px 36px 0px rgba(228,97,247,0.35), inset -4px -7px 36px 0px rgba(228,97,247,0.35); 
+box-shadow: -4px 2px 18px 5px rgba(201,0,214,0.51), -4px -7px 36px 0px rgba(214,52,180,0.35), inset -4px -7px 36px 0px rgba(214,52,180,0.35), inset -4px -7px 36px 0px rgba(228,97,247,0.35), inset -4px -7px 36px 0px rgba(228,97,247,0.35);
+transition: all 7s.ease ;
+}
+button
+{
+   border-top: none ;
+    border-right: none ;
+    border-left: none ;
+    border-bottom-width: 0.3em;
+    -webkit-border-radius: 40px 40px 0px 40px;
+-moz-border-radius: 40px 40px 0px 40px;
+border-radius: 40px 40px 0px 40px;
+background: #edde9c ;
+    border-bottom-color: yellow ;
+    width: 20em;
+    height: 2em ;
+    margin-bottom: 30%;
+}
+button:hover
+{
+    -moz-transform: scale(1.5) rotate(360deg);
+-webkit-transform: scale(1.5) rotate(360deg);
+-o-transform: scale(1.5) rotate(360deg);
+-ms-transform: scale(1.5) rotate(360deg);
+transform: scale(1.5) rotate(360deg);
+-webkit-border-radius: 40px 40px 40px 40px;
+-moz-border-radius: 40px 40px 40px 40px;
+border-radius: 40px 40px 40px 40px;
+transition: all 7s.ease ;
+background: #edde9c ;
+border-style: solid ;
+border-width: 0.1em;
+border-color: yellow ;
+margin-bottom: 30%;
+}
+a
+{
+color: #52BE80 ;
+}
